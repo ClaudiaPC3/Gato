@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_column="0"
+            android:id="@+id/button_idA1"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+
+        <Button
+            android:layout_column="1"
+            android:id="@+id/button_idA2"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+
+        <Button
+            android:layout_column="2"
+            android:id="@+id/button_idA3"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_idB1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/button_idB2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/button_idB3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow android:layout_width="244dp">
+
+        <Button
+            android:id="@+id/button_idC1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/button_idC2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/button_idC3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_column="0"
+                android:id="@+id/j1"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:gravity="center_vertical"
+                android:text="Jugador 1:"
+                />
+
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/nomj2"
+                android:layout_height="match_parent"
+                android:layout_width="250dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/j2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:gravity="center_vertical"
+                android:text="Jugador 2:"/>
+
+            <EditText
+                android:id="@+id/nomj1"
+                android:layout_height="match_parent"
+                android:layout_width="250dp"
+                android:layout_column="1" />
+
+        </TableRow>
+
+    </TableLayout>
+    </LinearLayout>
