@@ -150,9 +150,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Imp_ganador(letra);
         }else         if(C1.getText().toString().equals(letra+"") && B2.getText().toString().equals(letra+"") && A3.getText().toString().equals(letra+"")){
             Imp_ganador(letra);
-        }else{
-            Ganador.setText("No Hay, es un Empate");
-            Ganador.setEnabled(false);
+        }else         if(C1.getText().toString().equals(letra+"") && B1.getText().toString().equals(letra+"") && A1.getText().toString().equals(letra+"")){
+            Imp_ganador(letra);
+        }else         if(C2.getText().toString().equals(letra+"") && B2.getText().toString().equals(letra+"") && A2.getText().toString().equals(letra+"")){
+            Imp_ganador(letra);
+        }else         if(C3.getText().toString().equals(letra+"") && B3.getText().toString().equals(letra+"") && A3.getText().toString().equals(letra+"")){
+            Imp_ganador(letra);
         }
     }
 
